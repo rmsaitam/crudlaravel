@@ -1,4 +1,16 @@
+1. Fork o repositório <br>
+2. Clona o Fork <br>
+3. No arquivo .env colocar as credenciais do BD e cria o BD com o nome crudlaravel pelo phpmyadmin ou pelo terminal <br>
+4. No diretório document root onde salvou o projeto, execute `composer install` <br>
+5. Em seguida: `php artisan migrate` <br>
+6. Cria um VirtualHost no Apache com ServerName http://crudlaravel, direcionando o document root para /crudlaravel/public e adicionar AllowOverride All <br>
+7. Restart o Apache <br>
+8. Adiciona o host com o nome crudlaravel para o IP do servidor web <br><br>
+
+Acesse no browser: http://crudlaravel se fez corretamente os procedimentos acima irá carregar a página de listagem com as opções de ADD, EDIT, DEL.
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+
+Feito!
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
