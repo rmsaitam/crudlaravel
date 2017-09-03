@@ -8,9 +8,12 @@
 8. Adiciona o host com o nome crudlaravel para o IP do servidor web <br><br>
 
 Acesse no browser: http://crudlaravel se fez corretamente os procedimentos acima irá carregar a página de listagem com as opções de ADD, EDIT, DEL.
+
+Feito! 
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-Feito!
+
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
