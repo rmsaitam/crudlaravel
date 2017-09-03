@@ -1,6 +1,6 @@
 1. Fork o repositório <br>
 2. Clona o Fork <br>
-3. No arquivo .env colocar as credenciais do BD e cria o BD com o nome crudlaravel pelo phpmyadmin ou pelo terminal <br>
+3. Use como base o arquivo .env.example para colocar as credenciais do BD, esse arquivo deve ser renomeado para .env, depois cria o BD com o nome crudlaravel pelo phpmyadmin ou pelo terminal <br>
 4. No diretório document root onde salvou o projeto, execute `composer install` <br>
 5. Em seguida: `php artisan migrate` <br>
 6. Cria um VirtualHost no Apache com ServerName http://crudlaravel, direcionando o document root para /crudlaravel/public e adicionar AllowOverride All <br>
